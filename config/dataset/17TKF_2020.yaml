@@ -1,0 +1,249 @@
+Data:
+  mean: [0.04861746,
+0.07180687,
+0.09647745,
+0.12152254,
+0.14849261,
+0.16381950,
+0.18644468,
+0.18499667,
+0.19185604,
+0.13170600,
+0.09734378,
+0.13205888,
+0.15249290,
+0.19263235,
+0.25178431,
+0.27795145,
+0.30389079,
+0.30154506,
+0.33723872,
+0.27946777,
+0.10422841,
+0.14864371,
+0.16790908,
+0.21589303,
+0.29369498,
+0.32457231,
+0.33329428,
+0.34990988,
+0.37483618,
+0.30423019,
+0.07587559,
+0.10284976,
+0.10223877,
+0.14832668,
+0.27952415,
+0.33223409,
+0.32706380,
+0.35850413,
+0.28762693,
+0.19190960,
+0.06161887,
+0.08880860,
+0.08424233,
+0.13057934,
+0.29048792,
+0.35909122,
+0.36031139,
+0.38348392,
+0.26634593,
+0.16753116,
+0.04890846,
+0.06877492,
+0.05592676,
+0.09847634,
+0.27679053,
+0.36956206,
+0.37558252,
+0.39202858,
+0.21569343,
+0.12282171,
+0.05971471,
+0.08818650,
+0.08622764,
+0.14466088,
+0.24790453,
+0.28754474,
+0.31512344,
+0.31847748,
+0.23971911,
+0.15508584,
+0.06092098,
+0.08200565,
+0.10195716,
+0.12797568,
+0.16201345,
+0.17934521,
+0.19895414,
+0.20048345,
+0.24601236,
+0.18725240,
+0.08550194,
+0.10917728,
+0.13218911,
+0.16152792,
+0.19150346,
+0.21082927,
+0.22017014,
+0.23047425,
+0.29915423,
+0.24207093,
+]
+  std: [0.02705302,
+0.02984909,
+0.03558424,
+0.03612926,
+0.05342843,
+0.05840296,
+0.06600906,
+0.06088318,
+0.04946157,
+0.03906150,
+0.05478469,
+0.06090244,
+0.08093791,
+0.07264732,
+0.06666769,
+0.07597386,
+0.08351208,
+0.07788912,
+0.10387967,
+0.11046032,
+0.05135717,
+0.05867660,
+0.08349900,
+0.07174682,
+0.04905784,
+0.05993028,
+0.06252796,
+0.06051676,
+0.10355319,
+0.11537134,
+0.05151853,
+0.05400393,
+0.06700293,
+0.06870522,
+0.06814352,
+0.08152238,
+0.08223656,
+0.08572862,
+0.09387121,
+0.08298655,
+0.04600557,
+0.04809775,
+0.06133916,
+0.06033068,
+0.06131722,
+0.07983030,
+0.08081024,
+0.08060955,
+0.07960565,
+0.07245489,
+0.02896218,
+0.03212456,
+0.04168235,
+0.04080633,
+0.04976766,
+0.08119483,
+0.08404103,
+0.08271379,
+0.05821196,
+0.05836779,
+0.02068795,
+0.02355743,
+0.03468389,
+0.03891240,
+0.05559307,
+0.06631728,
+0.07357173,
+0.06959896,
+0.05214303,
+0.05759792,
+0.02592862,
+0.02944583,
+0.04027821,
+0.03619471,
+0.05074811,
+0.05851375,
+0.06595466,
+0.06154320,
+0.05597905,
+0.05428511,
+0.03310781,
+0.03851573,
+0.05187973,
+0.05023635,
+0.05748717,
+0.06402802,
+0.06717570,
+0.06582146,
+0.06697719,
+0.06752997,
+]
+  doy: [49,124,159,189,199,234,264,304,324]
+
+Model:
+  epoch: 50
+  num_classes: 8
+  num_seq: 9
+  num_feature: 10
+  batch_size: 1024
+  steps_per_epoch: 500
+Class_name: ["Corn","Soybean","winter wheat","forest","other crops","Water","Fallow land","Impervious"]
+
+
+Color_map_dict: {
+0: [255,211,0],
+1: [38,112,0],
+2: [165,112,0],
+3: [217,217,217],
+4: [217,217,217],
+5: [217,217,217],
+6: [217,217,217],
+7: [217,217,217],
+255: [217,217,217],
+}
+
+File:
+  train_img: ""
+  train_label: ""
+  val_img: ""
+  val_label: ""
+  test_img: ""
+  test_label: ""
+
+  train_npy_data: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/data_npy/train_data_all.npy"
+  train_npy_label: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/label_npy/train_label_all.npy"
+  train_npy_data_source: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/data_npy/train_data_all.npy"
+  train_npy_label_source: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/label_npy/train_label_all.npy"
+  train_npy_data_target: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2020/data_npy/train_data_all.npy"
+  train_npy_label_target: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2020/label_npy/train_label_all.npy"
+  val_npy_data: ""
+  val_npy_label: ""
+  test_npy_data: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/data_npy/test_data_all.npy"
+  test_npy_label: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2019/label_npy/test_label_all.npy"
+  test_npy_data_target: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2020/data_npy/test_data_all.npy"
+  test_npy_label_target: "/data2/ll22/Upcrop/CDL_OH/pixel_sample/2020/label_npy/test_label_all.npy"
+
+  file_name: "cta_cropup_2019_2020_epoch50"
+  model_start_path: ""
+  summary_path: "/data2/ll22/Upcrop/CDL_OH/result/2019_cta_cropup_2020/log/"
+  model_save_path: "/data2/ll22/Upcrop/CDL_OH/result/2019_cta_cropup_2020/model/"
+  train_excel_path: "/data2/ll22/Upcrop/CDL_OH/result/2019_cta_cropup_2020/train/"
+  val_excel_path: "/data2/ll22/Upcrop/CDL_OH/result/2019_cta_cropup_2020/val/"
+  test_excel_path: "/data2/ll22/Upcrop/CDL_OH/result/2019_cta_cropup_2020/test/"
+
+  image_path: "/data2/ll22/Upcrop/CDL_ND/Takeout/Cloud/ND_2019_S2"
+  best_model_path: "/data2/ll22/Upcrop/CDL_ND/result/2019_cta/model/time_1/epoch_50.pth"
+  save_pred_file: "/data2/ll22/Upcrop/CDL_ND/result/2019_cta/pred/class/"
+  save_score_file: "/data2/ll22/Upcrop/CDL_ND/result/2019_cta/pred/score/"
+
+Mosaic:
+  img_dir: "/data2/ll22/Upcrop/CDL_ND/Takeout/Cloud/ND_2019_CDL_simply/patch"#"/data2/ll22/Upcrop/CDL_ND/result/2019_transformer/pred/class/"
+  save_file: "/data2/ll22/Upcrop/CDL_ND/Takeout/Cloud/ND_2019_CDL_simply/merge/14UPU_2019_CDL.tif"#"/data2/ll22/Upcrop/CDL_ND/result/2019_transformer/pred/merge/14UPU_2019_transformer.tif"
+  map_file: "/data2/ll22/Upcrop/CDL_ND/Takeout/Cloud/ND_2019_CDL_simply/merge/14UPU_2019_CDL_color.tif"#"/data2/ll22/Upcrop/CDL_ND/result/2019_transformer/pred/merge/14UPU_2019_transformer_color.tif"
+
+Understanding:
+  mean: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_mean_v2.xlsx"
+  std: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_std_v2.xlsx"

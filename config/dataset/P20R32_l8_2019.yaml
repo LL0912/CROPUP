@@ -1,0 +1,82 @@
+Data:
+  mean: [ 0.06388992,0.09412349,0.11632363,0.21374189,0.27566206,0.21013861,
+  0.05137213,0.08431183,0.09310288,0.25027466,0.23275805,0.16224795,
+  0.06698999,0.10516141,0.11944754,0.30226403,0.29692370,0.22198310,
+  0.06790253,0.10747946,0.11919420,0.31418497,0.30080938,0.21347600,
+  0.04242633,0.07049868,0.07136038,0.26384918,0.20654566,0.12994906,
+  0.02333424,0.04273452,0.03815357,0.22006910,0.13193478,0.06992221,
+  0.05131832,0.07965379,0.09810268,0.23765310,0.24380362,0.16633150,
+  0.04385648,0.06509029,0.07942685,0.17007443,0.19391382,0.13605388,
+  0.05333186,0.07973472,0.09984091,0.19301498,0.23013453,0.16345366 ]
+  std: [0.02370380,0.03332206,0.04358282,0.06459802,0.08066624,0.06947506,
+0.03100683,0.04232510,0.05840033,0.10883463,0.11319635,0.09517829,
+0.03177698,0.04157872,0.06196483,0.07217578,0.10424724,0.10393472,
+0.03264227,0.04431865,0.06231415,0.08025565,0.10691480,0.10152181,
+0.02663293,0.03960787,0.04918725,0.11546046,0.10593428,0.08097982,
+0.02142656,0.03409265,0.03729251,0.15631076,0.09519616,0.06131312,
+0.02501273,0.03280667,0.04757436,0.06792595,0.07824510,0.06868780,
+0.02455712,0.03378593,0.04530102,0.08096967,0.08917339,0.06937179,
+0.01978828,0.02723463,0.03748718,0.06046880,0.05825353,0.04655294 ]
+  doy: [98,146,162,178,194,258,290,306,338]
+Model:
+  epoch: 50
+  num_classes: 8
+  num_seq: 9
+  num_feature: 6
+  batch_size: 1024
+  steps_per_epoch: 500
+Class_name: ["Corn","Soybean","Winter Wheat","Grassland","Other vegetable","Water","Fallow land","Impervious"]
+
+Color_map_dict: {
+0: [255,211,0],
+1: [38,112,0],
+2: [165,112,0],
+3: [217,217,217],
+4: [217,217,217],
+5: [217,217,217],
+6: [217,217,217],
+7: [217,217,217],
+255: [217,217,217],
+}
+
+File:
+  train_img: ""
+  train_label: ""
+  val_img: ""
+  val_label: ""
+  test_img: ""
+  test_label: ""
+
+  train_npy_data: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/data_npy/train_data_all.npy"
+  train_npy_label: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/label_npy/train_label_all.npy"
+  train_npy_data_source: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/data_npy/train_data_all.npy"
+  train_npy_label_source: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/label_npy/train_label_all.npy"
+  train_npy_data_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/data_npy/train_data_all.npy"
+  train_npy_label_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/label_npy/train_label_all.npy"
+  val_npy_data: ""
+  val_npy_label: ""
+  test_npy_data: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/data_npy/test_data_all.npy"
+  test_npy_label: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/label_npy/test_label_all.npy"
+  test_npy_data_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/data_npy/test_data_all.npy"
+  test_npy_label_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/label_npy/test_label_all.npy"
+  
+  file_name: "ctaupcrop_2019_2021"
+  model_start_path: ""
+  summary_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_ctaupcrop/log/"
+  model_save_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_ctaupcrop/model/"
+  train_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_ctaupcrop/train/"
+  val_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_ctaupcrop/val/"
+  test_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_ctaupcrop/test/"
+
+  image_path: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_L8_2019"
+  best_model_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/model/time_1/epoch_20.pth"
+  save_pred_file: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/pred/class/"
+  save_score_file: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/pred/score/"
+
+Mosaic:
+  img_dir: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2019_simply/patch" #"/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/pred/class/"
+  save_file: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2019_simply/merge/P20R32_CDL_2019.tif"#"/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/pred/merge/P20R32_Transformer_2019.tif"
+  map_file: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2019_simply/merge/P20R32_CDL_2019.tif"#"/data2/ll22/Upcrop/CDL_OH_L8/result/2019_transformer/pred/merge/P20R32_Transformer_2019_color.tif"
+Understanding:
+  mean: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_mean_v2.xlsx"
+  std: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_std_v2.xlsx"

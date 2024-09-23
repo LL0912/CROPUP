@@ -1,0 +1,83 @@
+Data:
+  mean: [0.27918909,0.29275495,0.30514022,0.30114604,0.04721691,0.03742610,
+0.05738907,0.08602190,0.10611111,0.22039838,0.25381302,0.18026250,
+0.06900803,0.11016122,0.11890987,0.33644583,0.30884421,0.22422987,
+0.03674456,0.06075711,0.05234810,0.28994358,0.18354418,0.10524349,
+0.03464546,0.07025609,0.04523159,0.41745458,0.18755440,0.08805736,
+0.02894407,0.04919041,0.03628530,0.41051776,0.17535617,0.08287834,
+0.01839368,0.03102475,0.02146467,0.26046704,0.10939960,0.04726412,
+0.05585336,0.08375014,0.10049983,0.22534577,0.25806659,0.17955664,
+]
+  std: [0.21600663,0.20963565,0.21508201,0.19244903,0.04560418,0.03252061,
+0.01762685,0.02258693,0.03207255,0.05557340,0.05309808,0.04623670,
+0.02755542,0.03636797,0.05354460,0.05735887,0.08958988,0.09078035,
+0.02038906,0.02884317,0.03366497,0.11643215,0.08409432,0.06217117,
+0.01382131,0.01492863,0.01869171,0.08468021,0.05190110,0.03823695,
+0.01507663,0.02157729,0.02713266,0.11396678,0.05743314,0.04260714,
+0.01909887,0.02933767,0.02541477,0.22172214,0.09573933,0.04658926,
+0.02232466,0.02913774,0.04281821,0.07130195,0.07019640,0.06182493,
+]
+  doy: [55,87,167,183,199,215,231,311]
+Model:
+  epoch: 50
+  num_classes: 8
+  num_seq: 8
+  num_feature: 6
+  batch_size: 1024
+  steps_per_epoch: 500
+Class_name: ["Corn","Soybean","Winter Wheat","Grassland","Other vegetable","Water","Fallow land","Impervious"]
+
+Color_map_dict: {
+0: [255,211,0],
+1: [38,112,0],
+2: [165,112,0],
+3: [217,217,217],
+4: [217,217,217],
+5: [217,217,217],
+6: [217,217,217],
+7: [217,217,217],
+255: [217,217,217],
+}
+
+File:
+  train_img: ""
+  train_label: ""
+  val_img: ""
+  val_label: ""
+  test_img: ""
+  test_label: ""
+
+  train_npy_data: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/data_npy/train_data_all.npy"
+  train_npy_label: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/label_npy/train_label_all.npy"
+  train_npy_data_source: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/data_npy/train_data_all.npy"
+  train_npy_label_source: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/label_npy/train_label_all.npy"
+  train_npy_data_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/data_npy/train_data_all.npy"
+  train_npy_label_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/label_npy/train_label_all.npy"
+  val_npy_data: ""
+  val_npy_label: ""
+  test_npy_data: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/data_npy/test_data_all.npy"
+  test_npy_label: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2019/label_npy/test_label_all.npy"
+  test_npy_data_target: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/data_npy/test_data_all.npy"
+  test_npy_labelterget: "/data2/ll22/Upcrop/CDL_OH_L8/pixel_sample/2021/label_npy/test_label_all.npy"
+
+  file_name: "ctaupcrop_2019_2021"
+  model_start_path: ""
+  summary_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_cta/log/"
+  model_save_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_cta/model/"
+  train_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_cta/train/"
+  val_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_cta/val/"
+  test_excel_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2019_2021_cta/test/"
+
+  image_path: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_L8_2021"
+  best_model_path: "/data2/ll22/Upcrop/CDL_OH_L8/result/2020_cta/model/time_1/epoch_50.pth"
+  save_pred_file: "/data2/ll22/Upcrop/CDL_OH_L8/result/2021_transformer/pred/class/"
+  save_score_file: "/data2/ll22/Upcrop/CDL_OH_L8/result/2021_transformer/pred/score/"
+
+Mosaic:
+  img_dir: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2021_simply/patch" #"/data2/ll22/Upcrop/CDL_OH_L8/result/2021_transformer/pred/class/"
+  save_file: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2021_simply/merge/P20R32_CDL_2021.tif"
+  map_file: "/data2/ll22/Upcrop/CDL_OH_L8/Takeout/Cloud/P20R32_CDL_2021_simply/merge/P20R32_CDL_2021.tif"
+
+Understanding:
+  mean: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_mean_v2.xlsx"
+  std: "/home/ll20/data/2021hubei_SAR_2/2021_elite_filter/result/refined_lee/PBCN_v3/understand/attenweight_std_v2.xlsx"

@@ -5,7 +5,7 @@
 
 ![introduction](img/CROPUP.jpg)
 []
-This is an official implementation of CROPUP in our RSE 2021 paper <a href="https://www.sciencedirect.com/science/article/pii/S0034425724004565?dgcid=author#ab0010">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
+This is an official implementation of CROPUP in our RSE 2021 paper <a href="[https://www.sciencedirect.com/science/article/pii/S0034425724004565?dgcid=author#ab0010](https://mailgw.whu.edu.cn/linkserver?dest=aHR0cHM6Ly9rd25zZmsyNy5yLmV1LXdlc3QtMS5hd3N0cmFjay5tZS9MMC9odHRwczolMkYlMkZh%0D%0AdXRob3JzLmVsc2V2aWVyLmNvbSUyRmMlMkYxanFsQTdxelQzRVpMLzEvMDEwMjAxOTIzMDFhMjk3%0D%0ANi1jYmYzMGJkMC03OTk2LTRlMzItOTY4Ni04YzVjNDIxMzA4NjMtMDAwMDAwLzU4Y0c4cVh6S0dJ%0D%0ATHFjLTlqNVdXMXlVc1dTND0zOTM%3D%0D%0A&tid=_____wCnFkxHyfVmiGI1AA--.189S2&rcpt=leilei912%40whu.edu.cn&ifnotice=1&rindex=3)">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
 
 ## Citation
 If you use CROPUP in your research, please cite the following paper:

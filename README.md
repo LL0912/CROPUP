@@ -7,6 +7,22 @@
 []
 This is an official implementation of CROPUP in our RSE 2021 paper <a href="https://www.sciencedirect.com/science/article/pii/S0034425724004565?dgcid=author#ab0010">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
 
+## Citation
+If you use CROPUP in your research, please cite the following paper:
+```
+@article{LEI2024114430,
+title = {CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples},
+journal = {Remote Sensing of Environment},
+volume = {315},
+pages = {114430},
+year = {2024},
+issn = {0034-4257},
+doi = {https://doi.org/10.1016/j.rse.2024.114430},
+url = {https://www.sciencedirect.com/science/article/pii/S0034425724004565},
+author = {Lei Lei and Xinyu Wang and Liangpei Zhang and Xin Hu and Yanfei Zhong},
+}
+```
+
 ## Getting started
 ### Prepare environment
 

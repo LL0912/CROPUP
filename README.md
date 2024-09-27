@@ -4,8 +4,8 @@
 <h5 align="right">by <a href="https://ll0912.github.io/">Lei Lei</a>,  <a href="https://jszy.whu.edu.cn/WangXinyu/zh_CN/index.htm">Xinyu Wang </a>, <a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a>, Xin Hu and <a href="http://rsidea.whu.edu.cn/">Yanfei Zhong</a></h5>
 
 ![introduction](img/CROPUP.jpg)
-
-This is an official implementation of CROPUP in our RSE 2021 paper <a>CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
+[]
+This is an official implementation of CROPUP in our RSE 2021 paper <a href="https://www.sciencedirect.com/science/article/pii/S0034425724004565?dgcid=author#ab0010">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
 
 ## Getting started
 ### Prepare environment

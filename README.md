@@ -10,7 +10,7 @@ This is an official implementation of CROPUP in our RSE 2021 paper <a href="http
 ## Citation
 If you use CROPUP in your research, please cite the following paper:
 ```
-@article{LEI2024114430,
+@article{LEI2024CROPUP,
 title = {CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples},
 journal = {Remote Sensing of Environment},
 volume = {315},

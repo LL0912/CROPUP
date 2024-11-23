@@ -15,7 +15,7 @@ from utils.io_func import read_ENVI,write_ENVI,make_parent_dir_list
 from utils.img_tool import img_norm_2
 from utils.img_tool import stretch_data
 from utils.helper_unite import predict_batch
-from models.UNITE import CTA
+from models.UNITE import unite
 import time
 from utils.time import format_timedelta
 from tqdm import tqdm

@@ -5,7 +5,7 @@
 
 ![introduction](img/CROPUP.jpg)
 []
-This is an official implementation of CROPUP in our RSE 2021 paper <a href="https://authors.elsevier.com/c/1jqlA7qzT3EZL">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
+This is an official implementation of CROPUP in our RSE 2024 paper <a href="https://authors.elsevier.com/c/1jqlA7qzT3EZL">CROPUP: Historical products are all you need? An end-to-end cross-year crop map updating framework without the need for in situ samples </a>.
 
 ## Citation
 If you use CROPUP in your research, please cite the following paper:
